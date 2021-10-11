@@ -1,8 +1,12 @@
-import cv2
+from objectDetection import objectDetection
 
 
 def main():
-    pass
+
+    image_1 = "Test/Needle.PNG"
+    image_2 = "Test/Hay.PNG"
+
+    objectDetection(image_1, image_2)
 
 
 if __name__ == '__main__':
