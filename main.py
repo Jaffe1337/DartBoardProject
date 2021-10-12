@@ -1,12 +1,8 @@
-from objectDetection import objectDetection
+from test import test
 
 
 def main():
-
-    image_1 = "Test/Needle.PNG"
-    image_2 = "Test/Hay.PNG"
-
-    objectDetection(image_1, image_2)
+    test()
 
 
 if __name__ == '__main__':
