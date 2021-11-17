@@ -11,8 +11,10 @@ def test():
 
 
 def fileTest():
-    for file in os.listdir("Test"):
-        print(file)
+    new_list = []
+    for file in os.listdir(r"C:\Users\janfr\ikt213\Project\TensorFlow\workspace\training_demo\images\demo"):
+        new_list.append(file)
+    print(new_list)
 
 
 fileTest()
